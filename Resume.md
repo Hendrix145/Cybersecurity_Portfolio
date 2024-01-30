@@ -1,13 +1,19 @@
 ADENIRAN-TAIWO LUCIANO ENIADE
 
 Email. mailto:eniadeadeniran@gmail.com
+
 Mobile No. +2347067904954
+
 Linkedin.linkedin.com/in/adeniran-taiwo-eniade
+
 Github.  htpps://github.com/Hendrix145
 
 INTRO
+
  A SOC analyst with two years experience in Networking and Cybersecurity and armed with expertise in IDS/IPS, Firewall, Incident Response, SIEM. I'm passionate about fortifying digital landscapes against cyber threats.
+ 
 WORK EXPERIENCE
+
 OLASHORE INTERNATIONAL SCHOOL, ILOKO-ILESHA - NETWORK TECHNICIAN/IT SUPPORT STAFF(INTERN).
 JULY, 2022 - AUGUST,2023.
 Resolved IT support request from staff.
