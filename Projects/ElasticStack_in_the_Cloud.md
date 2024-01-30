@@ -16,4 +16,13 @@ This link is for the trial sign up page. Start a trial by signing up.
 ![elk](https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/d2a4bfe8-47c9-4854-baa5-b138dfbf732a)
 
 Watch your email for a confirmation. Click "Verify and Accept." You should be redirected to the cloud login page. If you're not redirected, you can find it here.
-Elastic Cloud Log In
+
+https://cloud.elastic.co/login
+
+After logging in, the page will look like this.
+
+Fill out the proper filed with the correct information pictured below and select the check boxes with red dots.
+
+Once those fields are filled out click "Next"
+<img width="248" alt="Capture1" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/22938bcc-e434-4f61-a76d-cf70e7b785e3">
+
