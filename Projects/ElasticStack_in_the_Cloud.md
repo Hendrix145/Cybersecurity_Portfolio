@@ -107,13 +107,48 @@ Once the powershell instance opens, copy what you kept in the file in my case it
 Make sure you type y and hit enter when prompted by powershell.
 
 
+Switch back over to your browser and you should see "1 Agent has been enrolled".
+
+
+
+<img width="724" alt="finish_button" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/4cc344c0-cd7a-4eaf-8d04-d08e939cd365">
+
+
+Then Click "Add to Integration".
+
+
+2. Check The Fleet.
+
+Once thats done we should be connected, But first lets make sure the device has successfully connected.
+
+
+<img width="185" alt="fleet_loc" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/34e426dc-b351-41f6-8755-fab6c03a5d9e">
 
 
 
 
+<img width="918" alt="pic_of_box" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/b2d8c475-1f44-4b0b-8e04-42ccaeb3c332">
 
 
 
+Our Elastic Agent is installed and configured to be connected to our ELK instance in the cloud. Next, we will cover how to configure Sysmon to submit logs to this Elastic Agent, which will ingest the logs to appear in Kibana.
+
+
+
+By default, Windows logs are not ideal. To get logs that are more readable and useful, we can use Sysmon.
+
+1. Download Sysmon
+
+Follow this link to download Sysmon.
+
+
+https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon
+
+
+Find the "Download Sysmon" link
+
+
+![sysmon_download](https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/6dcfad7d-23e9-45fd-ac72-bfd27efd56d5)
 
 
 
