@@ -12,3 +12,5 @@ To learn ELK, we don't need several servers or to spend large sums of money. We 
 https://cloud.elastic.co/registration?settings=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsZW5ndGgiOjE1MCwic2l6ZSI6NDA5NiwiZGVmYXVsdF9zaXplIjoxMDI0fQ.dS6xqdrcNBVkANlcS19AnsZmHVSqoPROLHprdeN-Qbc&source=education
 
 This link is for the trial sign up page. Start a trial by signing up.
+
+![elk](https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/d2a4bfe8-47c9-4854-baa5-b138dfbf732a)
