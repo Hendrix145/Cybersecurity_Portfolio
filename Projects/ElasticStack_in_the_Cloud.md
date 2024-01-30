@@ -214,14 +214,61 @@ Save the Integration.
 
 
 
+<img width="940" alt="saveandnext" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/6c3e6f36-5456-4e0a-8224-fa91238a67e8">
+
+
+When prompted click "Add elastic agent to your hosts".
+
+
+
+
+<img width="960" alt="addelastichost" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/76943e84-6b8b-4d81-9e64-566863986b1d">
+
+
+
+In the Integrations menu, find the "Installed integrations" tab.
+
+Previously, we selected an Elastic Security configuration. In doing so, "Endpoint Security" and "System" are automatically installed in our Integrations.
+
+
+
+
+<img width="946" alt="integrations_extras" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/8ff8d62d-ddfe-4fc5-9279-cbe2778c3fde">
+
+
+
+
+
+At this point, play around on the computer that has Elastic Agent installed. Move files around, create files, start programs, make a few Google searches. This will generate some logs to ensure that we have Sysmon logs reaching our cloud.
+
+After you have created some log activity, navigate to "Discover" by accessing the hamburger menu on the top left.
 
 
 
 
 
 
+<img width="960" alt="filter" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/52482073-0d57-49f1-aa04-caae85629593">
 
 
+
+
+Set a filter on your data to limit your results to sysmon data. This can be done by searching the "data_stream.dataset" field for "windows.sysmon_operational" data. Then click "add filter". Your filter should now be set.
+
+
+
+
+
+<img width="960" alt="applied_filter" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/f4a53334-80e8-4c52-93a5-0af49c1a2521">
+
+
+
+
+If you have a result, and not an error, your Sysmon data is being collected and sent to Elastic.
+
+
+
+<img width="960" alt="final" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/65a352b7-6536-4023-8cf6-752cf9aac957">
 
 
 
