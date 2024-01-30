@@ -148,7 +148,93 @@ https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon
 Find the "Download Sysmon" link
 
 
-![sysmon_download](https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/6dcfad7d-23e9-45fd-ac72-bfd27efd56d5)
+![sysmon](https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/ea0291ff-3fe1-4495-adac-2f5acc4fd33a)
+
+
+Previously, we reviewed several ways to find our download. Repeat these steps to find find the Sysmon download in the Downloads folder.
+
+Perform "Extract All" on the Sysmon Folder. Ensure the Sysmon folder is selected -- It will be highlighted blue.
+
+
+"Extract" to the Downloads folder. Windows should auto-populate the Downloads path.
+
+In your search bar, type "PowerShell." The following options will be presented. Click "Run as Administrator."
+
+
+
+![powershell (1)](https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/5a39ef6f-7e6b-4719-9331-1fd149132770)
+
+
+
+In your PowerShell window, enter the following command. You will need to substitute [USER] for the user you are using on your local system.
+
+
+cd C:\Users\[USER]\Downloads\Sysmon\
+
+
+.\Sysmon.exe -i 
+
+
+Now that Sysmon is running on our system, we need to configure our Elastic agent to gather these logs. Sign into your cloud account.
+
+
+Navigate to "Integrations" through the navigation menu.
+
+
+
+<img width="184" alt="integrations" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/a834d6c4-6102-4f50-9056-e9caa9b77e45">
+
+
+
+At the top of the page enter "windows" into the search bar. Select the Windows option with the red square pictured below.
+
+
+
+
+<img width="818" alt="which_windows" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/0ec8cf9a-4dec-41a0-b02d-b7f42b50328c">
+
+
+
+Add this integration.
+
+
+<img width="959" alt="installation" src="https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/cac9a4ab-fcf9-45a8-a690-d4bbe1f631be">
+
+
+
+By default, the Sysmon logs channel should be active. This can be checked under the "Collect events from the following Windows event log channels:" section of the "Add integration" page.
+
+
+
+![sysmon_selected](https://github.com/Hendrix145/Cybersecurity_Portfolio/assets/97060217/9828934d-6640-4448-9277-8c968341434a)
+
+
+
+Save the Integration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
