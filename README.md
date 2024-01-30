@@ -1,4 +1,5 @@
 Whoiam$
+
 My name is Adeniran-Taiwo Luciano Eniade
 I am currently a student at the University of Ibadan, Computer science.
 A SOC analyst with two years experience in Networking and Cybersecurity and armed with expertise in IDS/IPS, Firewall, Incident Response, SIEM. I'm passionate about fortifying digital landscapes against cyber threats.
