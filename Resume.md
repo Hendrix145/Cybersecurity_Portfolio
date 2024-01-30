@@ -42,10 +42,12 @@ Installed and configured EDR to monitor and respond to suspicious activities on 
 EDUCATION
 
 University of Ibadan - Computer Sci.
+
 August, 2023-August, 2027
 (Ongoing)
 
 The Polytechnic, Ibadan - Science Laboratory Technology.
+
 December, 2019-August, 2022
 
 SKILLS
