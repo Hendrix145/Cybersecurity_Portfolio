@@ -11,8 +11,8 @@ Python 3.x
 
                               Usage
 Run the cracker with:
-python hash-cracker.py --hashvalue [HASH_VALUE] --hashtype [HASH_TYPE] --wordlist [PATH_TO_WORDLIST]
+               python hash-cracker.py --hashvalue [HASH_VALUE] --hashtype [HASH_TYPE] --wordlist [PATH_TO_WORDLIST]
 
-                             Example
+                           Example
 To crack a MD5 hash using a wordlist:
-python /home/kali/Desktop/hash_cracker.py --hashvalue 7a10ea1b9b2872da9f375002c44ddfce --hashtype md5 --wordlist /home/kali/Desktop/python.txt
+        python /home/kali/Desktop/hash_cracker.py --hashvalue 7a10ea1b9b2872da9f375002c44ddfce --hashtype md5 --wordlist /home/kali/Desktop/python.txt
